@@ -24,7 +24,8 @@ const startServer = async () => {
         origin: [
           'http://localhost:5173',
           'http://localhost:5050',
-          process.env.CLIENT_URL,
+          'https://quickblog-eight.vercel.app',
+           process.env.CLIENT_URL,
         ],
         credentials: true,
       })
