@@ -2,7 +2,8 @@ import fs from 'fs';
 import mongoose from 'mongoose';
 import Blog from '../models/Blog.js';
 import Comment from '../models/Comment.js';
-import imagekit from '../config/imagekit.js';
+import imagekit from '../config/imageKit.js'; 
+
 
 // ✅ Import main() used in generateContent
 import { main as generateFromGemini } from '../config/gemini.js';
